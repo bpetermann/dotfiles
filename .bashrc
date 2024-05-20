@@ -93,7 +93,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 alias cls='clear'
-alias cdev='cd ~/webdev'
+alias cdev='cd ~/webdev/Projects/'
 alias aptup='sudo apt update && sudo apt upgrade'
 
 # Add an "alert" alias for long running commands.  Use like so:
