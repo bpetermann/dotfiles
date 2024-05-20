@@ -6,10 +6,5 @@ mkdir -p $DOT_DIR
 cd $DOT_DIR
 git clone https://github.com/bpetermann/dotfiles.git
 cd dotfiles
-```
-
-### Run ansible
-
-```bash
 ansible-playbook local.yml
 ```

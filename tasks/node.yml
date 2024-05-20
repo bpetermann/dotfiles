@@ -18,16 +18,30 @@
     - install
     - node
 
+- name: Add npmjs global bin to PATH
+  shell: 'echo "export PATH=$HOME/.local/.npm-global/bin:$PATH" >> ~/.profile'
+  tags:
+    - install
+    - node
+
+- name: Reload profile
+  shell: source ~/.profile
+  args:
+    executable: /bin/bash
+  tags:
+    - install
+    - node
+
 - name: Install n
   npm:
     name: n
-    global: yesF
+    global: yes
   tags:
     - install
     - node
 
 - name: Install Node v16.16.0
-  shell: n v16.16.0
+  shell: n 16.16.0
   environment:
     PATH: "{{ ansible_env.HOME }}/.local/.npm-global/bin:{{ ansible_env.PATH }}"
   tags:
