@@ -1,0 +1,5 @@
+- name: Copy .bashrc
+  copy:
+    src: ../.bashrc
+    dest: ~/.bashrc
+    backup: yes
