@@ -1,6 +1,6 @@
 ## Setup
 
-This repository provides an Ansible setup and various configuration files for your environment.
+This repository contains an Ansible setup and various configuration files to customize a new machine and get it up and running quickly.
 
 ## Ansible
 
@@ -17,7 +17,7 @@ sudo apt install ansible
 
 2. **Clone repository**
 
-First, create a directory for your projects if it doesn't exist, then clone the repository:
+Run the following script to create a directory for your projects if it doesn't already exist, then clone the repository and cd into it: 
 
 ```bash
 DOT_DIR=$HOME/ben/webdev/Projects/
@@ -35,6 +35,13 @@ To apply the configurations using Ansible, run the following command:
 ansible-playbook local.yml
 ```
 
+4. **This will currently setup the following tasks**
+   
+- setup bash.yml    
+- setup git.yml    
+- setup node.yml
+- setup npm-packages.yml
+
 ## Config files
 
 **Using Makefile**
@@ -50,3 +57,7 @@ make
 ```bash
 make print
 ```
+
+## Test
+
+The test folder contains a Dockerfile for a Ubuntu focal installation that can be used to test this setup
