@@ -22,9 +22,34 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.singleQuote": true,
-  "editor.codeActionsOnSave": {},
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.openRepositoryInParentFolders": "never",
+  "redhat.telemetry.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+    "source.fixAll": "always"
+  },
+  "editor.formatOnSave": true,
+  "scm.showHistoryGraph": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
