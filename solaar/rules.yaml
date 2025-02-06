@@ -1,0 +1,13 @@
+%YAML 1.3
+---
+- Key: [Forward Button, pressed]
+- KeyPress: [Control_L, Right]
+...
+---
+- Key: [Back Button, pressed]
+- KeyPress: [Control_L, Left]
+...
+---
+- MouseGesture: Mouse Up
+- KeyPress: Super_L
+...
