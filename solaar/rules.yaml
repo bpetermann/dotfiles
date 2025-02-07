@@ -11,3 +11,7 @@
 - MouseGesture: Mouse Up
 - KeyPress: Super_L
 ...
+---
+- MouseGesture: Mouse Right
+- KeyPress: [Control_L, Shift_L, i]
+...
