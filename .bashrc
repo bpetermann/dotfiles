@@ -95,6 +95,11 @@ alias l='ls -CF'
 alias cls='clear'
 alias cdev='cd ~/webdev/Projects/'
 alias aptup='sudo apt update && sudo apt upgrade'
+alias delete='rm -rf'
+alias encrypt='ansible-vault encrypt'
+alias decrypt='ansible-vault decrypt'
+alias ff='firefox &'
+alias gc='google-chrome'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
